@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #131E3A;
+  color: #fff;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: outo 1fr outo;
+}
+
+.logo-img {
+  width: 100%;
+  max-width: 180px;
+  display: block;
+}
+
+.nav {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 160px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+.nav-link{
+    margin-bottom: 10px;
+    background-color: orange;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.logout {
+  background: orange;
+  font-weight: bold;
+  text-align: center;
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  padding: 0px;
+}
+
+.top-nav {
+  display: grid;
+  grid-auto-flow: column;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  gap: 10px;
+  background:orange;
+  padding: 25px;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  
+}
+
+.activity-section {
+    padding:10px 20px;
+}
+
+.activity-section h2 {
+  color: orange;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 7px solid orange;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  margin: 20px;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.card .icon{
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: orange;
+  
+}
+
+.card .title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card .info {
+  font-size: 14px;
+  margin-top: 5px;
+  color: orange;
+}
+
+.footer {
+  background-color: orange;
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+  color: white;
+}
